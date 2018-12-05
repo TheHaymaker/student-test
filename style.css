@@ -1,0 +1,161 @@
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: auto;
+	background: #2b353f;
+}
+
+.container {
+	width: 55%;
+	margin:	auto;
+	overflow: hidden;	
+}
+
+#headline .container {
+	background: url(images/header_bg.jpg) no-repeat; 
+	/*How do I set the image so that resizes and maintains a specific height?*/ 
+	background-size: 100%;
+	height: 400px;
+}
+
+#headline h1 a {
+	display: block;
+	font-weight: 800;
+	font-size: 36px;
+	color: white;
+	margin-left: 75px;
+	text-decoration:none;
+}
+
+#headline h2 {
+	display: block;
+	font-weight: 600;
+	font-size: 24px;
+	color: white;
+	margin: 100px 186px;
+	float: left;
+}
+
+#headline button {
+	display: block;
+	font-weight: 800;
+	font-size: 18px;
+	color: #121212;
+	background: #f9e42e;
+	text-align: center;
+    width: 200px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+/*BENEFITS*/
+
+#benefits .container {
+	background: #f0efef;
+	text-align: left;
+	color: #121212;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+#benefits h1 {
+	font-weight: 600;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 75px;
+}
+
+#benefits p {
+	margin-left: 75px;
+	width: 375px;
+}
+
+#benefits ul {
+	margin-left: 75px;
+	line-height: 10px;
+}
+
+
+/*QUOTE AREA*/
+
+#quote {
+	text-align: center;
+}
+
+#quote .container {
+	background: url(images/header_bg.jpg) 0 -250px no-repeat; /* Need to figure out how to not lose image as the page contracts. */
+	background-size: 100%;
+	color: #ffffff;
+	min-height: 200px;
+}
+
+#quote p {
+	font-weight: 300i;
+	font-size: 18px;
+	width: 325px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+
+#quote h1 {
+	font-weight: 600;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+
+/*SIGN UP NOW*/
+
+#signupbutton .container {
+	background: #f9e42e;
+	text-align: center;
+}
+
+#signupbutton button {
+	font-weight: 800;
+	font-size: 12px;
+	color: white;
+	background: #033048;
+    width: 200px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 5px;
+	/*margin-top: : 27.5px; This required me to place as an inline style for it to work, why? */
+	margin-bottom: 27.5px;
+}
+
+#bottom .container {
+	background: #121212;
+	min-height: 150px;
+	text-align: center;
+	margin: auto;
+}
+
+
+#bottom h1 a img {
+	display: inline-block;
+	font-weight: 800;
+	font-size: 24px;
+	color: #f9e42e;
+	text-decoration:none; /*How come text decoration isn't working here?*/
+}
+
+#bottom img {
+	margin: 0 auto;
+}
+
+#bottom h6 {
+	display: block;
+	font-weight: 600;
+	font-size: 9px;
+	color: white;
+	margin: 5 auto;
+	text-align: center; 
+}
